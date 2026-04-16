@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+#main-div {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  text-align: center;
+  color: #333;
+}
+
+.f1 {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+#tabl {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+#tabl th, #tabl td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+#tabl th {
+  background-color: #e9ecef;
+}
+
+.dele {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dele:hover {
+  background-color: #c82333;
+}
+
+input {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
